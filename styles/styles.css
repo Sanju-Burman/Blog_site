@@ -1,0 +1,115 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 1rem;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    padding: 2rem;
+}
+
+.section {
+    margin-bottom: 2rem;
+}
+
+form label {
+    display: block;
+    margin-top: 1rem;
+}
+
+form input,
+form select,
+form textarea {
+    width: 100%;
+    padding: 0.5rem;
+    margin-top: 0.5rem;
+}
+
+form button {
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #0056b3;
+}
+
+#note-sidebar,
+#note-preview {
+    display: inline-block;
+    vertical-align: top;
+    width: 48%;
+    padding: 1rem;
+    border: 1px solid #ccc;
+    margin-right: 1%;
+}
+
+#note-sidebar input {
+    width: calc(100% - 2rem);
+    padding: 0.5rem;
+}
+
+#note-sidebar button {
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#note-sidebar button:hover {
+    background-color: #0056b3;
+}
+
+#note-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+#note-list li {
+    padding: 0.5rem;
+    border-bottom: 1px solid #ccc;
+    cursor: pointer;
+}
+
+#note-list li:hover {
+    background-color: #f0f0f0;
+}
+
+@media (max-width: 768px) {
+
+    #note-sidebar,
+    #note-preview {
+        width: 100%;
+        margin-right: 0;
+    }
+}
